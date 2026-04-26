@@ -1,0 +1,15 @@
+site_name: Katana Docs
+site_url: !ENV READTHEDOCS_CANONICAL_URL
+
+theme:
+  name: material
+
+# Enable necessary markdown extensions
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+# Include custom JavaScript for Read the Docs integration
+extra_javascript:
+  - javascript/readthedocs.js   
